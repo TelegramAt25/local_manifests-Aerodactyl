@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="t25" fetch="https://github.com/TelegramAt25" />
+  <remote name="mika" fetch="https://mika-git.duckdns.org/fukiame" />
   <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="AOS" fetch="https://github.com/ArrowOS" />
 
   <!-- device tree -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="t25" revision="y5" />
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="mika" revision="Vampire" />
 
   <!-- SELinux policies -->
   <remove-project name="android_device_mediatek_sepolicy_vndr"/>
@@ -15,19 +15,19 @@
 
   <!-- hardware supports -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="25ji" revision="fifteen" />
-  <!-- <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" /> -->
+  <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" />
 
   <!-- kernel tree -->
-  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="Udon_v2">
+  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="mika" revision="Vampire">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
   <!-- vendor tree -->
-  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="t25" revision="Udon_v2" />
+  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="mika" revision="Vampire" />
 
-  <!-- Samsung NFC
+  <!-- Samsung NFC -->
   <remove-project name="platform/hardware/samsung/nfc"/>
-  <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="LOS" revision="lineage-21.0" /> -->
+  <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="LOS" revision="lineage-21.0" />
 
   <!-- RevampedFMRadio -->
   <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="25ji" revision="thirteen" />
