@@ -48,6 +48,6 @@
   <!-- Simple Keyboard
        (overrides nothing, should be used with TARGET_SHIP_SKB)
   -->
-  <project path="packages/apps/SimpleKeyboard" name="android_packages_apps_SimpleKeyboard" remote="mika" revision="fdroid" />
+  <project path="packages/inputmethods/SimpleKeyboard" name="android_packages_inputmethods_SimpleKeyboard" remote="mika" revision="fdroid" />
 
 </manifest>
