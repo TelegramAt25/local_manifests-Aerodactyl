@@ -17,7 +17,9 @@
 
   <!-- hardware supports -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="disroot" revision="lineage-22.2" />
+  <!--
   <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" />
+  -->
 
   <!-- kernel tree -->
   <project path="device/xiaomi/blossom-kernel" name="android_device_xiaomi_blossom-kernel" remote="disroot" revision="Udon_v2">
