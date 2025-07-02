@@ -28,8 +28,8 @@
   <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="disroot" revision="lineage-22.2" />
 
   <!-- Samsung NFC
-  <remove-project name="platform/hardware/samsung/nfc"/>
   -->
+  <remove-project name="platform/hardware/samsung/nfc"/>
   <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="LOS" revision="lineage-22.1" />
 
   <!-- RevampedFMRadio -->
