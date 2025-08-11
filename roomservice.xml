@@ -16,7 +16,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="disroot" revision="Blooming" />
 
   <!-- hardware supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="disroot" revision="lineage-22.2" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="disroot" revision="Blooming" />
   <!--
   <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" />
   -->
