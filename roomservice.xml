@@ -22,7 +22,7 @@
   -->
 
   <!-- kernel tree -->
-  <project path="device/xiaomi/blossom-kernel" name="android_device_xiaomi_blossom-kernel" remote="disroot" revision="Udon_v2">
+  <project path="device/xiaomi/blossom-kernel" name="android_device_xiaomi_blossom-kernel" remote="disroot" revision="yoka">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
