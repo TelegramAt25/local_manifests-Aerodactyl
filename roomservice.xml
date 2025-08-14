@@ -51,4 +51,22 @@
   -->
   <project path="packages/apps/FOSSBrowser" name="android_packages_apps_FOSSBrowser" remote="disroot" revision="fdroid" />
 
+  <!-- Miku exclusive, package replacements
+       for a more or less sleeker experience
+
+       a mix of LineageOS packages and, sometimes,
+       ExthmUI changes
+  -->
+  <remove-project path="packages/apps/Dialer"/>
+  <remove-project path="packages/apps/messaging"/>
+  <remove-project path="packages/apps/Contacts"/>
+  <remove-project path="packages/apps/DeskClock"/>
+
+  <project path="packages/apps/Glimpse" name="android_packages_apps_Glimpse" remote="LOS" revision="lineage-22.2" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="LOS" revision="lineage-22.2" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="LOS" revision="lineage-23.0" />
+
+  <project path="packages/apps/messaging" name="android_packages_apps_messaging" remote="disroot" revision="Blooming" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="disroot" revision="Blooming" />
+
 </manifest>
