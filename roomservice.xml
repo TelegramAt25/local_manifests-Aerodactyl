@@ -28,13 +28,13 @@
   <project path="device/nothing/Aerodactyl-kernel" name="android_device_nothing_Aerodactyl-kernel" remote="Nothing2A" revision="lineage-23.1" />
 
   <!-- common vendor tree -->
-  <project path="vendor/nothing/Aerodactyl" name="proprietary_vendor_nothing_Aerodactyl" remote="Nothing2A" revision="lineage-23.0" />
+  <project path="vendor/nothing/Aerodactyl" name="proprietary_vendor_nothing_Aerodactyl.gitt" remote="Nothing2A-gitlab" revision="lineage-23.0" />
 
   <!-- 2a vendor tree -->
-  <project path="vendor/nothing/Pacman" name="proprietary_vendor_nothing_Pacman" remote="Nothing2A-gitlab" revision="lineage-23.0" />
+  <project path="vendor/nothing/Pacman" name="proprietary_vendor_nothing_Pacman.git" remote="Nothing2A-gitlab" revision="lineage-23.0" />
 
   <!-- 2a plus vendor tree -->
-  <project path="vendor/nothing/PacmanPro" name="proprietary_vendor_nothing_PacmanPro" remote="Nothing2A-gitlab" revision="lineage-23.0" />
+  <project path="vendor/nothing/PacmanPro" name="proprietary_vendor_nothing_PacmanPro.git" remote="Nothing2A-gitlab" revision="lineage-23.0" />
 
 
   <!-- glyph packages -->
