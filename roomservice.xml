@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="Nothing2A" fetch="https://github.com/Nothing-2A" />
+  <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="disroot" fetch="https://git.disroot.org/fukiame" />
-  <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
-  <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <!-- <remote name="LOS" fetch="https://github.com/LineageOS" /> -->
   <!-- <remote name="AOS" fetch="https://github.com/ArrowOS" /> -->
 
   <!-- device tree -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="disroot" revision="Blooming" />
+  <project path="device/nothing/Aerodactyl" name="android_device_nothing_Aerodactyl" remote="t25" revision="Blooming" />
 
   <!-- SELinux policies -->
   <!--
   <remove-project path="device/mediatek/sepolicy_vndr"/>
   -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="disroot" revision="Blooming" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Nothing2A" revision="lineage-23.1" />
 
   <!-- hardware supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="disroot" revision="Blooming" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Nothing2A" revision="lineage-23.1" />
   <!--
   <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" />
   -->
 
-  <!-- kernel tree -->
-  <project path="device/xiaomi/blossom-kernel" name="android_device_xiaomi_blossom-kernel" remote="disroot" revision="yoka">
-    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
-  </project>
+  <!-- prebuilt kernel -->
+  <project path="device/nothing/Aerodactyl-kernel" name="android_device_nothing_Aerodactyl-kernel" remote="Nothing2A" revision="lineage-23.1" />
 
-  <!-- vendor tree -->
-  <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="disroot" revision="Blooming" />
+  <!-- common vendor tree -->
+  <project path="vendor/nothing/Aerodactyl" name="proprietary_vendor_nothing_Aerodactyl" remote="Nothing2A" revision="lineage-23.0" />
 
-  <!-- Samsung NFC
-  -->
-  <remove-project path="hardware/samsung/nfc"/>
-  <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="disroot" revision="Blooming" />
+  <!-- 2a vendor tree -->
+  <project path="vendor/nothing/Pacman" name="proprietary_vendor_nothing_Pacman" remote="Nothing2A" revision="lineage-23.0" />
 
   <!-- RevampedFMRadio -->
   <!--
   <remove-project path="packages/apps/FMRadio"/>
-  -->
   <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="disroot" revision="lineage-22.1" />
+  -->
 
   <!-- libtinyxml -->
   <!--
