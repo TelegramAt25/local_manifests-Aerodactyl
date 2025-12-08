@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="Nothing2A" fetch="https://github.com/Nothing-2A" />
+  <remote name="Nothing2A-gitlab" fetch="https://gitlab.com/nothing-2a" />
   <remote name="Pong" fetch="https://github.com/Pong-Development" />
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="disroot" fetch="https://git.disroot.org/fukiame" />
@@ -30,10 +31,10 @@
   <project path="vendor/nothing/Aerodactyl" name="proprietary_vendor_nothing_Aerodactyl" remote="Nothing2A" revision="lineage-23.0" />
 
   <!-- 2a vendor tree -->
-  <project path="vendor/nothing/Pacman" name="proprietary_vendor_nothing_Pacman" remote="Nothing2A" revision="lineage-23.0" />
+  <project path="vendor/nothing/Pacman" name="proprietary_vendor_nothing_Pacman" remote="Nothing2A-gitlab" revision="lineage-23.0" />
 
   <!-- 2a plus vendor tree -->
-  <project path="vendor/nothing/PacmanPro" name="proprietary_vendor_nothing_PacmanPro" remote="Nothing2A" revision="lineage-23.0" />
+  <project path="vendor/nothing/PacmanPro" name="proprietary_vendor_nothing_PacmanPro" remote="Nothing2A-gitlab" revision="lineage-23.0" />
 
 
   <!-- glyph packages -->
