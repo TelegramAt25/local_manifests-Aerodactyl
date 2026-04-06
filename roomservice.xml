@@ -54,8 +54,8 @@
   <!-- FOSS Browser
        (overrides Browser2, here only for sources which
        do not ship any usable browser out of the box)
-  -->
   <project path="packages/apps/FOSSBrowser" name="android_packages_apps_FOSSBrowser" remote="disroot" revision="fdroid" />
+  -->
 
   <!-- Miku exclusive, package replacements
        for a more or less sleeker experience
