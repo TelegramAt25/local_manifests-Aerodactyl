@@ -7,6 +7,7 @@
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="disroot" fetch="https://git.disroot.org/fukiame" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="blu" fetch="https://github.com/blumengarten" />
   <!-- <remote name="AOS" fetch="https://github.com/ArrowOS" /> -->
 
   <!-- device tree -->
@@ -19,7 +20,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Nothing2A" revision="lineage-23.2" />
 
   <!-- hardware supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Nothing2A" revision="lineage-23.2" />
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="blu" revision="16.2" />
   <!--
   <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" />
   -->
