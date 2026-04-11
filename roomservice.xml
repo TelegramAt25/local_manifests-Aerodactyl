@@ -5,6 +5,7 @@
   <remote name="Nothing2A-gitlab" fetch="https://gitlab.com/nothing-2a" />
   <remote name="Pong" fetch="https://github.com/Pong-Development" />
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
+  <remote name="t25berg" fetch="https://codeberg.org/TelegramAt25" />
   <remote name="disroot" fetch="https://git.disroot.org/fukiame" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="helikon" fetch="https://github.com/halcyonproject" />
@@ -29,7 +30,7 @@
   <project path="device/nothing/Aerodactyl-kernel" name="android_device_nothing_Aerodactyl-kernel" remote="t25" revision="kuuhaku" />
 
   <!-- common vendor tree -->
-  <project path="vendor/nothing/Aerodactyl" name="proprietary_vendor_nothing_Aerodactyl.git" remote="Nothing2A-gitlab" revision="lineage-23.2" />
+  <project path="vendor/nothing/Aerodactyl" name="proprietary_vendor_nothing_Aerodactyl.git" remote="t25berg" revision="16.2" />
 
   <!-- 2a vendor tree -->
   <project path="vendor/nothing/Pacman" name="proprietary_vendor_nothing_Pacman.git" remote="Nothing2A-gitlab" revision="lineage-23.2" />
