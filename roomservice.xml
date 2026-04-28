@@ -9,6 +9,7 @@
   <remote name="disroot" fetch="https://git.disroot.org/fukiame" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="helikon" fetch="https://github.com/halcyonproject" />
+  <remote name="ido" fetch="https://github.com/xyzuniverse" />
   <!-- <remote name="AOS" fetch="https://github.com/ArrowOS" /> -->
 
   <!-- device tree -->
@@ -21,7 +22,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Nothing2A" revision="lineage-23.2" />
 
   <!-- hardware supports -->
-  <project path="hardware/mediatek" name="hardware_mediatek" remote="helikon" revision="16.2" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ido" revision="16.2" />
   <!--
   <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" />
   -->
