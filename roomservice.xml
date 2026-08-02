@@ -20,10 +20,10 @@
   <!--
   <remove-project path="device/mediatek/sepolicy_vndr"/>
   -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Nothing2A" revision="lineage-23.2" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="helikon" revision="16.2" />
 
   <!-- hardware supports -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ido" revision="16.2" />
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="helikon" revision="16.2" />
   <!--
   <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" />
   -->
