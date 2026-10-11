@@ -45,8 +45,10 @@
   <project name="packages_apps_GlyphAdapter" path="packages/apps/GlyphAdapter" remote="helikon" revision="16.2" />
 
   <!-- aosp messaging -->
+  <!--
   <remove-project path="packages/apps/Messaging"/>
   <project path="packages/apps/Messaging" name="hlcyn_packages_apps_Messaging" remote="personal" revision="16.2" />
+  -->
 
   <!-- RevampedFMRadio -->
   <!--
