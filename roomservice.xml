@@ -44,6 +44,9 @@
   <project name="packages_apps_ParanoidGlyph" path="packages/apps/ParanoidGlyph" remote="helikon" revision="16.2" />
   <project name="packages_apps_GlyphAdapter" path="packages/apps/GlyphAdapter" remote="helikon" revision="16.2" />
 
+  <!-- please send me some ssd -->
+  <remove-project path="prebuilts/android-emulator"/>
+
   <!-- aosp messaging -->
   <!--
   <remove-project path="packages/apps/Messaging"/>
