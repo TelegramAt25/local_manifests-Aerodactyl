@@ -24,6 +24,7 @@
 
   <!-- hardware supports -->
   <project path="hardware/mediatek" name="hardware_mediatek" remote="helikon" revision="16.2" />
+  <project path="hardware/nothing" name="hardware_nothing" remote="helikon" revision="16.2" />
   <!--
   <project path="hardware/miku/interfaces" name="android_hardware_miku_interfaces" remote="25ji" revision="Udon_v2" />
   -->
